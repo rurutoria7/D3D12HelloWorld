@@ -1,0 +1,22 @@
+﻿D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaDestroyConfig
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaDestroyContext
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaDestroyBuffer
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaDestroySurfaces
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaTerminate
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaCreateSurfaces
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaGetDisplayWin32
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaInitialize
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaExportSurfaceHandle
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaMaxNumEntrypoints
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaQueryConfigEntrypoints
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaCreateConfig
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaCreateContext
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaCreateBuffer
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaBeginPicture
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaMapBuffer
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaUnmapBuffer
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaRenderPicture
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaEndPicture
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaSyncSurface
+D3D12HelloVAResourceInterop.obj : error LNK2001: 無法解析的外部符號 vaSyncBuffer
+bin\x64\Release\D3D12HelloVAResourceInterop.exe : fatal error LNK1120: 21 個無法解析的外部符號

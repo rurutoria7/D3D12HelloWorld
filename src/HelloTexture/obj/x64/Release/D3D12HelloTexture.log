@@ -1,0 +1,69 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: 兩個或多個名稱為 'D3D12HelloTexture.cpp' 的檔案會產生輸出到相同位置。這可能導致錯誤的組建結果。涉及的檔案是 ..\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp, D3D12HelloTexture.cpp。
+  D3D12HelloTexture.cpp
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(1008,63): warning C4244: '引數': 將 'UINT64' 轉換為 'INT'，由於類型不同，可能導致資料遺失
+  (編譯來源檔案 '/D3D112HelloComputeShaderPostProcessing/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(1014,63): warning C4244: '引數': 將 'UINT64' 轉換為 'INT'，由於類型不同，可能導致資料遺失
+  (編譯來源檔案 '/D3D112HelloComputeShaderPostProcessing/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(1021,63): warning C4244: '引數': 將 'UINT64' 轉換為 'INT'，由於類型不同，可能導致資料遺失
+  (編譯來源檔案 '/D3D112HelloComputeShaderPostProcessing/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(678,50): warning C4267: 'return': 將 'size_t' 轉換為 'int'，資料可能遺失
+  (編譯來源檔案 '/D3D112HelloComputeShaderPostProcessing/D3D12HelloTexture.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(678,50):
+      範本具現化內容 (首先是最舊的) 是
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.h(146,31):
+          請參考正在進行編譯的 類別 樣板 具現化 'WaveFrontReader<uint32_t>'
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(678,9):
+          編譯 類別 樣板 成員函式 'int WaveFrontReader<uint32_t>::GetIndicesSize(void)' 期間
+              D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(377,38):
+              請參閱 'D3D12HelloTexture::InitGBufferPass' 中 'WaveFrontReader<uint32_t>::GetIndicesSize' 的第一個參考
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(677,52): warning C4267: 'return': 將 'size_t' 轉換為 'int'，資料可能遺失
+  (編譯來源檔案 '/D3D112HelloComputeShaderPostProcessing/D3D12HelloTexture.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(677,52):
+      範本具現化內容 (首先是最舊的) 是
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(677,9):
+          編譯 類別 樣板 成員函式 'int WaveFrontReader<uint32_t>::GetVerticesSize(void)' 期間
+              D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(333,37):
+              請參閱 'D3D12HelloTexture::InitGBufferPass' 中 'WaveFrontReader<uint32_t>::GetVerticesSize' 的第一個參考
+  
+  D3D12HelloTexture.cpp
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,17): error C3646: 'strDissolve': 未知的覆寫規範
+  (編譯來源檔案 '/D3D12HelloTexture.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,17):
+      範本具現化內容 (首先是最舊的) 是
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(40,7):
+          編譯類別範本 'WaveFrontReader' 時
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(622,12):
+          編譯類別 'WaveFrontReader<index_t>::Material' 時
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,28): error C2143: 語法錯誤: 遺漏 ',' (在 '[' 之前)
+  (編譯來源檔案 '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,38): error C2238: 在 ';' 之前有未預期的語彙基元
+  (編譯來源檔案 '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\D3D12HelloTexture.cpp(611,110): warning C4244: '引數': 將 'UINT64' 轉換為 'INT'，由於類型不同，可能導致資料遺失
+  (編譯來源檔案 '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\D3D12HelloTexture.cpp(626,23): warning C4244: '=': 將 'uint32_t' 轉換為 'float'，由於類型不同，可能導致資料遺失
+  (編譯來源檔案 '/D3D12HelloTexture.cpp')
+  
+  Main.cpp
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,17): error C3646: 'strDissolve': 未知的覆寫規範
+  (編譯來源檔案 '/Main.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,17):
+      範本具現化內容 (首先是最舊的) 是
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(40,7):
+          編譯類別範本 'WaveFrontReader' 時
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(622,12):
+          編譯類別 'WaveFrontReader<index_t>::Material' 時
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,28): error C2143: 語法錯誤: 遺漏 ',' (在 '[' 之前)
+  (編譯來源檔案 '/Main.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,38): error C2238: 在 ';' 之前有未預期的語彙基元
+  (編譯來源檔案 '/Main.cpp')
+  

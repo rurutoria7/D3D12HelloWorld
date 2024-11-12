@@ -1,0 +1,27 @@
+﻿  D3D12HelloTexture.cpp
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D12HelloRenderToTexture\D3D12HelloTexture.cpp(790,110): warning C4244: 'argument': conversion from 'UINT64' to 'INT', possible loss of data
+  (compiling source file '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D12HelloRenderToTexture\WaveFrontReader.h(675,50): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/D3D12HelloTexture.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D12HelloRenderToTexture\WaveFrontReader.h(675,50):
+      the template instantiation context (the oldest one first) is
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D12HelloRenderToTexture\D3D12HelloTexture.h(114,31):
+          see reference to class template instantiation 'WaveFrontReader<uint32_t>' being compiled
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D12HelloRenderToTexture\WaveFrontReader.h(675,9):
+          while compiling class template member function 'int WaveFrontReader<uint32_t>::GetIndicesSize(void)'
+              D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D12HelloRenderToTexture\D3D12HelloTexture.cpp(363,38):
+              see the first reference to 'WaveFrontReader<uint32_t>::GetIndicesSize' in 'D3D12HelloTexture::InitGBufferPass'
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D12HelloRenderToTexture\WaveFrontReader.h(674,52): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/D3D12HelloTexture.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D12HelloRenderToTexture\WaveFrontReader.h(674,52):
+      the template instantiation context (the oldest one first) is
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D12HelloRenderToTexture\WaveFrontReader.h(674,9):
+          while compiling class template member function 'int WaveFrontReader<uint32_t>::GetVerticesSize(void)'
+              D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D12HelloRenderToTexture\D3D12HelloTexture.cpp(319,37):
+              see the first reference to 'WaveFrontReader<uint32_t>::GetVerticesSize' in 'D3D12HelloTexture::InitGBufferPass'
+  
+  Main.cpp
+  Generating Code...
+  D3D12HelloRenderToTexture.vcxproj -> D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D12HelloRenderToTexture\bin\x64\Debug\D3D12HelloRenderToTexture.exe

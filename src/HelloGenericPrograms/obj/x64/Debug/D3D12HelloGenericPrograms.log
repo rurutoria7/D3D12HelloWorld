@@ -1,0 +1,9 @@
+﻿  Performing Custom Build Tools
+  stdafx.cpp
+  Win32Application.cpp
+  D3D12HelloGenericPrograms.cpp
+  DXSample.cpp
+  Main.cpp
+  Generating Code...
+     Creating library bin\x64\Debug\D3D12HelloGenericPrograms.lib and object bin\x64\Debug\D3D12HelloGenericPrograms.exp
+  D3D12HelloGenericPrograms.vcxproj -> D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloGenericPrograms\bin\x64\Debug\D3D12HelloGenericPrograms.exe

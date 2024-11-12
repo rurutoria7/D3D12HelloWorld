@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ProjectOutputs>
+    <ProjectOutput>
+      <FullPath>D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\bin\x64\Release\D3D112HelloComputeShaderPostProcessing.exe</FullPath>
+    </ProjectOutput>
+  </ProjectOutputs>
+  <ContentFiles>
+    <ContentFile>
+      <FullPath>D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\shaders.hlsl</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\bin\x64\Release\shaders.hlsl</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\bin\x64\Release\lighting.hlsl</FullPath>
+    </ContentFile>
+    <ContentFile>
+      <FullPath>D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\bin\x64\Release\present.hlsl</FullPath>
+    </ContentFile>
+  </ContentFiles>
+  <SatelliteDlls />
+  <NonRecipeFileRefs />
+</Project>

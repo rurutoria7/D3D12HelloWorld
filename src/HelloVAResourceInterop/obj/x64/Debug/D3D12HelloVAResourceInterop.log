@@ -1,0 +1,53 @@
+﻿  stdafx.cpp
+  Win32Application.cpp
+  D3D12HelloVAResourceInterop.cpp
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/D3D12HelloVAResourceInterop.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(2373,14): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  (compiling source file '/D3D12HelloVAResourceInterop.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(2373,14):
+      This member will be ignored by a defaulted constructor or copy/move assignment operator
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/D3D12HelloVAResourceInterop.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_dec_av1.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/D3D12HelloVAResourceInterop.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_fei_hevc.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/D3D12HelloVAResourceInterop.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_prot.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/D3D12HelloVAResourceInterop.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_win32.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/D3D12HelloVAResourceInterop.cpp')
+  
+  DXSample.cpp
+  Main.cpp
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/Main.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(2373,14): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  (compiling source file '/Main.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(2373,14):
+      This member will be ignored by a defaulted constructor or copy/move assignment operator
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/Main.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_dec_av1.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/Main.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_fei_hevc.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/Main.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_prot.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/Main.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_win32.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/Main.cpp')
+  
+  Generating Code...
+  D3D12HelloVAResourceInterop.vcxproj -> D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloVAResourceInterop\bin\x64\Debug\D3D12HelloVAResourceInterop.exe

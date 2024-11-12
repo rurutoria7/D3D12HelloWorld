@@ -1,0 +1,9 @@
+﻿  Performing Custom Build Tools
+  stdafx.cpp
+  Win32Application.cpp
+  D3D12HelloMeshNodes.cpp
+  DXSample.cpp
+  Main.cpp
+  Generating Code...
+     Creating library bin\x64\Debug\D3D12HelloMeshNodes.lib and object bin\x64\Debug\D3D12HelloMeshNodes.exp
+  D3D12HelloMeshNodes.vcxproj -> D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloMeshNodes\bin\x64\Debug\D3D12HelloMeshNodes.exe

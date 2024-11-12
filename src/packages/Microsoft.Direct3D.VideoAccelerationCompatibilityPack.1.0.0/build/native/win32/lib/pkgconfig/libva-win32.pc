@@ -1,0 +1,14 @@
+prefix=D:/a/_work/1/a/installdir
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+libva_version=2.17.0
+va_api_version=1.17.0
+display=win32
+
+Name: va_win32
+Description: Userspace Video Acceleration (VA) Win32 interface
+Version: 1.17.0
+Requires: libva
+Libs: -L${libdir} -lva_win32
+Cflags: -I${includedir}

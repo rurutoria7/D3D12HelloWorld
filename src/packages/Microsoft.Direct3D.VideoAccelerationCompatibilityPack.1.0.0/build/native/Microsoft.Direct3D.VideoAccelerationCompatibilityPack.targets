@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)/$(PlatformTarget)/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(MSBuildThisFileDirectory)/$(PlatformTarget)/lib;%(AdditionalIncludeDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+
+  <PropertyGroup>
+    <ProjectPlatform Condition="'$(PlatformTarget)' == 'x64' OR ('$(PlatformTarget)' == 'AnyCPU' AND '$(Prefer32Bit)' != 'true')">x64</ProjectPlatform>
+    <ProjectPlatform Condition="'$(PlatformTarget)' == 'x86' OR ('$(PlatformTarget)' == 'AnyCPU' AND '$(Prefer32Bit)' == 'true')">win32</ProjectPlatform>
+    <ProjectPlatform Condition="'$(PlatformTarget)' == '' AND '$(Prefer32Bit)' != 'true'">x64</ProjectPlatform>
+    <ProjectPlatform Condition="'$(PlatformTarget)' == '' AND '$(Prefer32Bit)' == 'true'">win32</ProjectPlatform>
+    <ProjectPlatform Condition="'$(PlatformTarget)' == 'arm64'">arm64</ProjectPlatform>
+    <ProjectPlatform Condition="'$(ProjectPlatform)' == ''">$(PlatformTarget)</ProjectPlatform>
+  </PropertyGroup>
+</Project>

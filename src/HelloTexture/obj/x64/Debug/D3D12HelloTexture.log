@@ -1,0 +1,70 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of D3D12HelloTexture.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp, D3D12HelloTexture.cpp.
+  D3D12HelloTexture.cpp
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(1187,63): warning C4244: 'argument': conversion from 'UINT64' to 'INT', possible loss of data
+  (compiling source file '/D3D112HelloComputeShaderPostProcessing/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(1193,63): warning C4244: 'argument': conversion from 'UINT64' to 'INT', possible loss of data
+  (compiling source file '/D3D112HelloComputeShaderPostProcessing/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(1200,63): warning C4244: 'argument': conversion from 'UINT64' to 'INT', possible loss of data
+  (compiling source file '/D3D112HelloComputeShaderPostProcessing/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(678,50): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/D3D112HelloComputeShaderPostProcessing/D3D12HelloTexture.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(678,50):
+      the template instantiation context (the oldest one first) is
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.h(147,31):
+          see reference to class template instantiation 'WaveFrontReader<uint32_t>' being compiled
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(678,9):
+          while compiling class template member function 'int WaveFrontReader<uint32_t>::GetIndicesSize(void)'
+              D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(385,38):
+              see the first reference to 'WaveFrontReader<uint32_t>::GetIndicesSize' in 'D3D12HelloTexture::InitGBufferPass'
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(677,52): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/D3D112HelloComputeShaderPostProcessing/D3D12HelloTexture.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(677,52):
+      the template instantiation context (the oldest one first) is
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(677,9):
+          while compiling class template member function 'int WaveFrontReader<uint32_t>::GetVerticesSize(void)'
+              D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(341,37):
+              see the first reference to 'WaveFrontReader<uint32_t>::GetVerticesSize' in 'D3D12HelloTexture::InitGBufferPass'
+  
+  D3D12HelloTexture.cpp
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,17): error C3646: 'strDissolve': unknown override specifier
+  (compiling source file '/D3D12HelloTexture.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,17):
+      the template instantiation context (the oldest one first) is
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(40,7):
+          while compiling class template 'WaveFrontReader'
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(622,12):
+          while compiling class 'WaveFrontReader<index_t>::Material'
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,28): error C2143: syntax error: missing ',' before '['
+  (compiling source file '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,38): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\D3D12HelloTexture.cpp(611,110): warning C4244: 'argument': conversion from 'UINT64' to 'INT', possible loss of data
+  (compiling source file '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\D3D12HelloTexture.cpp(626,23): warning C4244: '=': conversion from 'uint32_t' to 'float', possible loss of data
+  (compiling source file '/D3D12HelloTexture.cpp')
+  
+  Main.cpp
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,17): error C3646: 'strDissolve': unknown override specifier
+  (compiling source file '/Main.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,17):
+      the template instantiation context (the oldest one first) is
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(40,7):
+          while compiling class template 'WaveFrontReader'
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(622,12):
+          while compiling class 'WaveFrontReader<index_t>::Material'
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,28): error C2143: syntax error: missing ',' before '['
+  (compiling source file '/Main.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloTexture\WaveFrontReader.h(643,38): error C2238: unexpected token(s) preceding ';'
+  (compiling source file '/Main.cpp')
+  
+  Generating Code...

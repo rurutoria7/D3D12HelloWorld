@@ -1,0 +1,7 @@
+﻿  D3D12WorkGraphsSandbox.cpp
+     正在建立程式庫 bin\x64\Release\D3D12WorkGraphsSandbox.lib 和物件 bin\x64\Release\D3D12WorkGraphsSandbox.exp
+  正在產生程式碼
+  Previous IPDB not found, fall back to full compilation.
+  All 1381 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  已完成程式碼產生
+  D3D12WorkGraphsSandbox.vcxproj -> D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\WorkGraphsSandbox\bin\x64\Release\D3D12WorkGraphsSandbox.exe

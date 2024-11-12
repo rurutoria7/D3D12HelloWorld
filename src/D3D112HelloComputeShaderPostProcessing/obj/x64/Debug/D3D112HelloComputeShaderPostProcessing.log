@@ -1,0 +1,40 @@
+﻿  D3D12HelloTexture.cpp
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(1035,37): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(1035,32): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(1035,27): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(1187,63): warning C4244: 'argument': conversion from 'UINT64' to 'INT', possible loss of data
+  (compiling source file '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(1193,63): warning C4244: 'argument': conversion from 'UINT64' to 'INT', possible loss of data
+  (compiling source file '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(1200,63): warning C4244: 'argument': conversion from 'UINT64' to 'INT', possible loss of data
+  (compiling source file '/D3D12HelloTexture.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(678,50): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/D3D12HelloTexture.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(678,50):
+      the template instantiation context (the oldest one first) is
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.h(147,31):
+          see reference to class template instantiation 'WaveFrontReader<uint32_t>' being compiled
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(678,9):
+          while compiling class template member function 'int WaveFrontReader<uint32_t>::GetIndicesSize(void)'
+              D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(385,38):
+              see the first reference to 'WaveFrontReader<uint32_t>::GetIndicesSize' in 'D3D12HelloTexture::InitGBufferPass'
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(677,52): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '/D3D12HelloTexture.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(677,52):
+      the template instantiation context (the oldest one first) is
+          D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\WaveFrontReader.h(677,9):
+          while compiling class template member function 'int WaveFrontReader<uint32_t>::GetVerticesSize(void)'
+              D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\D3D12HelloTexture.cpp(341,37):
+              see the first reference to 'WaveFrontReader<uint32_t>::GetVerticesSize' in 'D3D12HelloTexture::InitGBufferPass'
+  
+  D3D112HelloComputeShaderPostProcessing.vcxproj -> D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\D3D112HelloComputeShaderPostProcessing\bin\x64\Debug\D3D112HelloComputeShaderPostProcessing.exe

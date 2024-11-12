@@ -1,0 +1,4 @@
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloConstBuffers\bin\x64\Debug\D3D12\D3D12Core.dll
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloConstBuffers\bin\x64\Debug\D3D12\D3D12Core.pdb
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloConstBuffers\bin\x64\Debug\D3D12\D3D12SDKLayers.dll
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloConstBuffers\bin\x64\Debug\D3D12\D3D12SDKLayers.pdb

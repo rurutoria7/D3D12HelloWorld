@@ -1,0 +1,3 @@
+﻿     正在建立程式庫 bin\x64\Release\D3D12HelloMeshNodes.lib 和物件 bin\x64\Release\D3D12HelloMeshNodes.exp
+D3D12HelloMeshNodes.obj : error LNK2001: 無法解析的外部符號 IID_ID3D12Device
+bin\x64\Release\D3D12HelloMeshNodes.exe : fatal error LNK1120: 1 個無法解析的外部符號

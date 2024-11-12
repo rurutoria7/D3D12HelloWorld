@@ -1,0 +1,8 @@
+﻿  Performing Custom Build Tools
+  stdafx.cpp
+  Win32Application.cpp
+  D3D12HelloBundles.cpp
+  DXSample.cpp
+  Main.cpp
+  Generating Code...
+  D3D12HelloBundles.vcxproj -> D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloBundles\bin\x64\Debug\D3D12HelloBundles.exe

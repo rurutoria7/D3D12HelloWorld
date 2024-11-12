@@ -1,0 +1,71 @@
+﻿  stdafx.cpp
+  Win32Application.cpp
+  D3D12HelloVAEncode.cpp
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(2373,14): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(2373,14):
+      This member will be ignored by a defaulted constructor or copy/move assignment operator
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_dec_av1.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_fei_hevc.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_prot.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_win32.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloVAEncode\D3D12HelloVAEncode.cpp(339,31): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloVAEncode\D3D12HelloVAEncode.cpp(341,43): warning C4244: '=': conversion from 'float' to 'int16_t', possible loss of data
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloVAEncode\D3D12HelloVAEncode.cpp(342,43): warning C4244: '=': conversion from 'float' to 'int16_t', possible loss of data
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloVAEncode\D3D12HelloVAEncode.cpp(343,66): warning C4244: '=': conversion from 'float' to 'uint16_t', possible loss of data
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloVAEncode\D3D12HelloVAEncode.cpp(344,67): warning C4244: '=': conversion from 'float' to 'uint16_t', possible loss of data
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloVAEncode\D3D12HelloVAEncode.cpp(349,35): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file '/D3D12HelloVAEncode.cpp')
+  
+  DXSample.cpp
+  Main.cpp
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/Main.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(2373,14): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  (compiling source file '/Main.cpp')
+      D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(2373,14):
+      This member will be ignored by a defaulted constructor or copy/move assignment operator
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/Main.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_dec_av1.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/Main.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_fei_hevc.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/Main.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_prot.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/Main.cpp')
+  
+D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\packages\Microsoft.Direct3D.VideoAccelerationCompatibilityPack.1.0.0\build\native\x64\include\va\va_win32.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (950). Save the file in Unicode format to prevent data loss
+  (compiling source file '/Main.cpp')
+  
+  Generating Code...
+  D3D12HelloVAEncode.vcxproj -> D:\Documents\2024_FALL\D3D\DirectX-Graphics-Samples\Samples\Desktop\D3D12HelloWorld\src\HelloVAEncode\bin\x64\Debug\D3D12HelloVAEncode.exe
