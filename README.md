@@ -1,93 +1,81 @@
-# DeferredRenderer
+---
+page_type: sample
+languages:
+- cpp
+products:
+- windows-api-win32
+name: Direct3D 12 Hello, World! samples
+urlFragment: d3d12-hello-world-samples-win32
+description: This collection of samples act as an introduction to Direct3D 12. Each sample introduces an elementary concept, and lays a foundation for all of the Direct3D 12 samples.
+extendedZipContent:
+- path: LICENSE
+  target: LICENSE
+---
 
+# Direct3D 12 Hello, World! samples
+![HelloWorlds GUI](src/D3D12HelloWorlds.png)
 
+This collection of samples act as an introduction to Direct3D 12. Each sample introduces an elementary concept, and lays a foundation for all of the Direct3D 12 samples.
 
-## Getting started
+## Hello, window! sample
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+This sample shows you how to create a window, Direct3D device (with debug layers enabled), and present to the window. These are the basic elements that every sample uses.
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+## Hello, triangle! sample
 
-## Add your files
+This sample shows you how to draw a static triangle using a vertex buffer.
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+## Hello, texture! sample
 
-```
-cd existing_repo
-git remote add origin https://cgv.cs.nthu.edu.tw:8889/mtk_d3d12/deferredrenderer.git
-git branch -M main
-git push -uf origin main
-```
+This sample shows you how to apply a Texture2D to triangle.
 
-## Integrate with your tools
+## Hello, bundles! sample
 
-- [ ] [Set up project integrations](https://cgv.cs.nthu.edu.tw:8889/mtk_d3d12/deferredrenderer/-/settings/integrations)
+This sample shows you how to use Bundles to draw a static triangle more efficiently.
 
-## Collaborate with your team
+## Hello, constant buffers! sample
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+This sample shows you how to animate a triangle using a constant buffer.
 
-## Test and Deploy
+## Hello, frame buffering! sample
 
-Use the built-in continuous integration in GitLab.
+This sample shows you how to use fences and multiple allocators to queue up multiple frames to the GPU.
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+## Hello, VADecode! sample
 
-***
+This sample shows you how to use Libva for Windows for decoding a basic H264 bitstream and rendering to screen. This sample depends on https://www.nuget.org/packages/Microsoft.Direct3D.VideoAccelerationCompatibilityPack/
 
-# Editing this README
+## Hello, VAEncode! sample
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+This sample shows you how to use Libva for Windows to perform video processing effects and encode the D3D12 render targets presented to screen to a basic H264 encoded bitstream. This sample depends on https://www.nuget.org/packages/Microsoft.Direct3D.VideoAccelerationCompatibilityPack/
 
-## Suggestions for a good README
+## Hello, VAResourceInterop! sample
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
+This sample shows you how to use Libva for Windows for inter-operating between D3D12 resources and VA surfaces. This sample depends on https://www.nuget.org/packages/Microsoft.Direct3D.VideoAccelerationCompatibilityPack/
 
-## Name
-Choose a self-explaining name for your project.
+## Hello, Work Graphs! sample
 
-## Description
-Let people know what your project can do specifically. Provide context and add a link to any reference visitors might be unfamiliar with. A list of Features or a Background subsection can also be added here. If there are alternatives to your project, this is a good place to list differentiating factors.
+This sample acts as an introduction to work graphs.
 
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
+See the [D3D12 work graphs blog post](https://devblogs.microsoft.com/directx/d3d12-work-graphs/) for details.
 
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
+In particular, descriptions of the samples are in that post [here](https://devblogs.microsoft.com/directx/d3d12-work-graphs/#Samples).
 
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
+## Work Graphs Sandbox sample
 
-## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
+This sample acts as a slightly more elaborate version of the above hello work graphs sample.
 
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
+See the [D3D12 work graphs blog post](https://devblogs.microsoft.com/directx/d3d12-work-graphs/) for details.
 
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
+In particular, descriptions of the samples are in that post [here](https://devblogs.microsoft.com/directx/d3d12-work-graphs/#Samples).
 
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
+## Hello, Generic Programs! sample
 
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
+This sample shows how to use generic programs in state objects as an alternative to previous ways of making pipeline state.  It also demonstrates using AddToStateObject() to make a new program resuing an existing shader along with a new one.
 
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+See the [D3D12 work graphs blog post](https://devblogs.microsoft.com/directx/d3d12-work-graphs/) for details.
 
-## Authors and acknowledgment
-Show your appreciation to those who have contributed to the project.
+In particular, descriptions of the samples are in that post [here](https://devblogs.microsoft.com/directx/d3d12-work-graphs/#Samples).
 
-## License
-For open source projects, say how it is licensed.
-
-## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+### Optional features
+The Texture and Constant Buffer samples have been updated to build against the Windows 10 Anniversary Update SDK. In this SDK a new revision of Root Signatures is available for Direct3D 12 apps to use. Root Signature 1.1 allows for apps to declare when descriptors in a descriptor heap won't change or the data descriptors point to won't change.  This allows the option for drivers to make optimizations that might be possible knowing that something (like a descriptor or the memory it points to) is static for some period of time.
